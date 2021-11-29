@@ -107,3 +107,79 @@ body{
   margin-left: -29px;
   margin-top: 4px;
 }
+
+.project-button{
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid transparent;
+
+}
+.project-button:hover{
+  border-bottom: 2px solid #ec1839;
+  color: #ec1839;
+}
+.image-effect{
+  background-color: rgba(0, 0, 0, 0.658);
+  position: absolute;
+  height: 200px;
+  width: 320px;
+  z-index: 1;
+  margin-top: -200px;
+  display: none;
+  transition: all 0.3s ease;
+}
+.p-button{
+  margin-left: auto;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  color: #ec1839;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: all 0.7s ease;
+}
+.p-button:hover{
+  background-color: #ec1839;
+  color: #fff;
+}
+
+.project-image img{
+  position: relative;
+  cursor: pointer;
+}
+.project:hover .image-effect{
+  display: block;
+}
+.submit-button{
+  margin-top: 30px;
+  margin-right: 270px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #ec1839;
+  color: #fff;
+  border: 2px solid #ec1839;
+  transition: all 0.5s ease;
+  font-weight: 600;
+}
+.submit-button:hover{
+  background-color: transparent;
+  color: #ec1839;
+
+}
+
+@media screen and (max-width: 600px){
+  .section{
+    margin-left: 10px;
+    margin-top: -80px;
+  }
+  .media-button{
+    padding-top: 90px;
+    padding-left: 20px;
+    
+  }
+  
+}

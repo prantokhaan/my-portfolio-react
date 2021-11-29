@@ -20,6 +20,10 @@ const StyledButton = styled(Button)({
     backgroundColor: '#fff',
     color: '#ec1839'
   },
+  "@media only screen and  (max-width 600px)": {
+    marginTop: '30px',
+    color: 'blue',
+  }
 
 })
 
@@ -52,12 +56,12 @@ const About = () => {
           <Grid item xs={12} md={6}>
             <SkillProgress />
           </Grid>
-          <div className="ms-3" style={{ marginTop: "-50px" }}>
+          <div className="ms-3 media-button" style={{ marginTop: "-50px" }}>
             <a href="https://drive.google.com/uc?id=1gn2grcG3NsgiS3NTYfEAvhJHXwCquQAy&export=download" target="_blank" rel="noreferrer" className="text-decoration-none">
               <StyledButton>Download Resume</StyledButton>
             </a>
 
-            <Link className="ms-5 text-decoration-none" to="/contact">
+            <Link className="ms-5 text-decoration-none media-button" to="/contact">
               <StyledButton>Hire Me</StyledButton>
             </Link>
           </div>
