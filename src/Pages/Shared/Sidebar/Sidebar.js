@@ -83,7 +83,7 @@ const Sidebar = () => {
           <Divider />
         </nav>
         <div style={{ marginTop: "180px", textAlign: "center" }}>
-          <h5 style={{ fontWeight: "400" }}>
+          <h5 style={{ fontWeight: "400", fontSize: '14px' }}>
             &copy; 2021, Ismatul Islam Pranto
           </h5>
         </div>

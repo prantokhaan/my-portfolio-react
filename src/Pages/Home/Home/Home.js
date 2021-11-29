@@ -1,7 +1,25 @@
 import React from 'react';
 import prantoImg from '../../../images/pranto.jpg';
 import { Link } from 'react-router-dom';
-import '../../../App.css';
+import { styled } from "@mui/system";
+import { Button } from "@mui/material";
+
+
+
+const StyledButton = styled(Button)({
+  backgroundColor: "#ec1839",
+  color: "#fff",
+  fontFamily: `'Poppins', sans-serif`,
+  padding: "8px 20px",
+  borderRadius: "40px",
+  border: "2px solid #ec1839",
+  transition: "all 0.5s ease",
+
+  "&:hover": {
+    backgroundColor: "#fff",
+    color: "#ec1839",
+  },
+});
 
 const Home = () => {
     const socialLinkStyle = {
@@ -70,6 +88,16 @@ const Home = () => {
               style={socialLinkStyle}
             >
               <i className="fa fa-instagram"></i>
+            </a>
+          </div>
+          <div className="mt-4">
+            <a
+              href="https://drive.google.com/uc?id=1gn2grcG3NsgiS3NTYfEAvhJHXwCquQAy&export=download"
+              target="_blank"
+              rel="noreferrer"
+              className="text-decoration-none"
+            >
+              <StyledButton>Download Resume</StyledButton>
             </a>
           </div>
         </div>
