@@ -21,7 +21,8 @@ const Sidebar = () => {
     
     return (
       <div className="sidebar">
-        {!isMatch ? <div
+        {!isMatch ? (
+          <div
             style={{
               width: "270px",
               backgroundColor: "#fdf9ff",
@@ -58,6 +59,18 @@ const Sidebar = () => {
                       style={{ marginRight: "5px" }}
                     ></i>
                     About
+                  </button>
+                </Link>
+              </div>
+              <Divider />
+              <div className="sidebar-item">
+                <Link to="/blogs">
+                  <button style={linkStyle}>
+                    <i
+                      className="fa fa-blog"
+                      style={{ marginRight: "5px" }}
+                    ></i>
+                    Blogs
                   </button>
                 </Link>
               </div>
@@ -101,7 +114,10 @@ const Sidebar = () => {
                 &copy; 2021, Ismatul Islam Pranto
               </h5>
             </div>
-          </div>:<MobileDrawer></MobileDrawer>}
+          </div>
+        ) : (
+          <MobileDrawer></MobileDrawer>
+        )}
       </div>
     );
 };

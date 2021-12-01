@@ -115,7 +115,7 @@ body{
   background: transparent;
   transition: all 0.5s ease;
   border-bottom: 2px solid transparent;
-
+  font-size: 20px;
 }
 .project-button:hover{
   border-bottom: 2px solid #ec1839;
@@ -169,6 +169,31 @@ body{
   background-color: transparent;
   color: #ec1839;
 
+}
+.feature-button{
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid transparent;
+  font-size: 20px;
+  color: #ec1839;
+  border-bottom: 2px solid #ec1839;
+}
+.web-link{
+  background-color: #ec1839;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 20px;
+  border-radius: 40px;
+  border: 2px solid #ec1839;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.web-link:hover{
+  color: #ec1839;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 600px){

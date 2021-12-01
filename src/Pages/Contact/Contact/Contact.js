@@ -1,12 +1,37 @@
 import { Grid, TextField } from '@mui/material';
-import React from 'react';
-import { useForm, ValidationError } from "@formspree/react";
+import React, {useRef} from 'react';
+import emailjs from "emailjs-com";
+import swal from "sweetalert";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("https://formspree.io/f/mvolpqyj");
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+  const form = useRef();
+
+  const handleSend = (e) => {
+    e.preventDefault()
+
+    emailjs.sendForm(
+        "service_yc6wo0q",
+        "template_3n8jdc7",
+        form.current,
+        "user_I3G3SJD4EQfPAH4IqEjG7"
+      )
+      .then(
+        (result) => {
+          swal({
+            title: "Sent Successfully!",
+            text: "I will Reply you soon!",
+            icon: "success",
+            button: "OK!",
+          });
+          e.target.reset()
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   }
+
+  
     return (
       <div className="section section-two">
         <div className="section-title">
@@ -69,9 +94,7 @@ const Contact = () => {
           </Grid>
         </Grid>
         <div className="mt-5 ms-5">
-          <form
-            action="https://formspree.io/f/prantokhaan@gmail.com"
-            method="POST"
+          <form ref={form} onSubmit={handleSend}
           >
             <TextField
               id="outlined-basic"
@@ -133,7 +156,6 @@ const Contact = () => {
             />
             <button
               type="submit"
-              disabled={state.submitting}
               className="submit-button"
             >
               Submit
