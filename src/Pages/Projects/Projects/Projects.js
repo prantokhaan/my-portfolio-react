@@ -7,6 +7,7 @@ import useProjects from '../../../Hooks/useProjects';
 const Projects = () => {
   let { path, url } = useRouteMatch();
   const [projects] = useProjects();
+  console.log(projects);
   const [name, subtitle, img1] = projects;
     return (
       <div className="section section-two">
@@ -19,7 +20,7 @@ const Projects = () => {
           </Link>
         </nav>
 
-        <div>
+        <div className="projects">
           <Grid container spacing={2}>
             {projects.map((project) => (
               <Grid item xs={12} md={4} className="project">

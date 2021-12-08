@@ -4,12 +4,10 @@ const useProjects = () => {
     const [projects, setProjects] = React.useState([]);
 
     React.useEffect(() => {
-        fetch(
-          "https://raw.githubusercontent.com/prantokhaan/projectsData/main/projectData.json"
-        )
-        .then(res => res.json())
-        .then(data => setProjects(data));
-    }, [])
+        fetch("/projectsData.json")
+          .then((res) => res.json())
+          .then((data) => setProjects(data));
+    }, [projects?.length])
 
     return [projects, setProjects];
 }

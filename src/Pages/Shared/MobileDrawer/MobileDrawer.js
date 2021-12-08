@@ -87,7 +87,11 @@ export default function MobileDrawer() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} style={{backgroundColor: '#d4d4e3'}}>
+      <AppBar
+        position="fixed"
+        open={open}
+        style={{ backgroundColor: "#d4d4e3" }}
+      >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -98,7 +102,18 @@ export default function MobileDrawer() {
           >
             <i className="fas fa-bars text-black"></i>
           </IconButton>
-          <h4 style={{fontFamily: `'Rubik', sans-serif`, textTransform: 'uppercase', color: '#000', textAlign: 'center', marginTop: '10px', marginLeft: '50px'}}>Ismatul Islam <span style={{color: '#ec1839'}}>Pranto</span></h4>
+          <h4
+            style={{
+              fontFamily: `'Rubik', sans-serif`,
+              textTransform: "uppercase",
+              color: "#000",
+              textAlign: "center",
+              marginTop: "10px",
+              marginLeft: "50px",
+            }}
+          >
+            Ismatul Islam <span style={{ color: "#ec1839" }}>Pranto</span>
+          </h4>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -140,6 +155,15 @@ export default function MobileDrawer() {
               <button style={linkStyle}>
                 <i className="fa fa-user" style={{ marginRight: "5px" }}></i>
                 About
+              </button>
+            </Link>
+          </div>
+          <Divider />
+          <div className="sidebar-item">
+            <Link to="/blogs">
+              <button style={linkStyle}>
+                <i className="fa fa-blog" style={{ marginRight: "5px" }}></i>
+                Blogs
               </button>
             </Link>
           </div>

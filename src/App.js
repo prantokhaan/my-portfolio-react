@@ -9,12 +9,14 @@ import Projects from './Pages/Projects/Projects/Projects';
 import Contact from './Pages/Contact/Contact/Contact';
 import WebDesign from './Pages/Projects/Web Design/WebDesign'
 import Blogs from './Pages/Blogs/Blogs';
+import Messenger from './Pages/Home/Messenger/Messenger'
 
 function App() {
   return (
     <div style={{ backgroundColor: "#f2f2fc" }}>
       <BrowserRouter>
         <Sidebar />
+        <Messenger />
         <Switch>
           <Route exact path="/">
             <Home />

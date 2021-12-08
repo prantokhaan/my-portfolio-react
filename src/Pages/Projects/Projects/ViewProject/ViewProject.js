@@ -254,10 +254,10 @@ const ViewProject = ({projectView}) => {
                     marginRight: "30px",
                   }}
                 >
-                  <li>{features.one}</li>
-                  <li>{features.two}</li>
-                  <li>{features.three}</li>
-                  <li>{features.four}</li>
+                  <li>{features?.one}</li>
+                  <li>{features?.two}</li>
+                  <li>{features?.three}</li>
+                  <li>{features?.four}</li>
                   <li>{features?.five}</li>
                   <li>{features?.six}</li>
                   <li>{features?.seven}</li>
@@ -268,15 +268,15 @@ const ViewProject = ({projectView}) => {
             ) : (
               <div>
                 <ul style={{ listStyleType: "none" }}>
-                  <li>{features.one}</li>
-                  <li>{features.two}</li>
-                  <li>{features.three}</li>
-                  <li>{features.four}</li>
-                  <li>{features.five}</li>
-                  <li>{features.six}</li>
-                  <li>{features.seven}</li>
-                  <li>{features.eight}</li>
-                  <li>{features.nine}</li>
+                  <li>{features?.one}</li>
+                  <li>{features?.two}</li>
+                  <li>{features?.three}</li>
+                  <li>{features?.four}</li>
+                  <li>{features?.five}</li>
+                  <li>{features?.six}</li>
+                  <li>{features?.seven}</li>
+                  <li>{features?.eight}</li>
+                  <li>{features?.nine}</li>
                 </ul>
               </div>
             )}
@@ -296,19 +296,19 @@ const ViewProject = ({projectView}) => {
                 >
                   <li>
                     <span className="fw-bold">Front-end: {""}</span>
-                    {technology.front}
+                    {technology?.front}
                   </li>
                   <li>
                     <span className="fw-bold">Back-end: </span>
-                    {technology.back}
+                    {technology?.back}
                   </li>
                   <li>
                     <span className="fw-bold">Database: </span>
-                    {technology.database}
+                    {technology?.database}
                   </li>
                   <li>
                     <span className="fw-bold">Authentication: </span>
-                    {technology.authentication}
+                    {technology?.authentication}
                   </li>
                   <li>
                     <span className="fw-bold">Framework: </span>
@@ -323,10 +323,10 @@ const ViewProject = ({projectView}) => {
             </div>
           </Grid>
         </Grid>
-        <div className="ms-5 mt-5">
+        <div className="ms-5 mt-5 button-link">
           <a
             className="web-link me-4"
-            href={projectView.live}
+            href={projectView?.live}
             target="_blank"
             rel="noreferrer"
           >
@@ -338,7 +338,7 @@ const ViewProject = ({projectView}) => {
             target="_blank"
             rel="noreferrer"
           >
-            Client Side
+            Github Client
           </a>
           {server?.length ? (
               <a
@@ -347,7 +347,7 @@ const ViewProject = ({projectView}) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Server Side
+                Github Server
               </a>
           ) : (
             <a

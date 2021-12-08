@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Max Wheels",
+    "subtitle": "A Car Selling Website",
+    "features": {
+      "one": "● Responsive UI",
+      "two": "● Single Page Application (SPA)",
+      "three": "● User can see the all cars provided by the authority.",
+      "four": "● Authenticated users can order a car by providing a demo.",
+      "five": "● User can see the progress status of his order",
+      "six": "● A dashboard is available for authenticated admin.",
+      "seven": "● Admin can add new services",
+      "eight": "● Admin can change the order’s status to notify the clients about progress.",
+      "nine": "● Admin can add a new admin."
+    },
+    "technology": {
+      "front": "React JS, React Router",
+      "back": "Node JS, Express JS",
+      "database": "MongoDB",
+      "authentication": "Firebase",
+      "framework": "Material UI",
+      "tools": "VS Code, Github, Heroku, REST api"
+    },
+    "live": "https://max-wheel-web.web.app/",
+    "server": "https://github.com/prantokhaan/max-wheels-server",
+    "client": "https://github.com/prantokhaan/max-wheels-client",
+    "img1": "https://i.ibb.co/KrG3QPf/image.png",
+    "img2": "https://i.ibb.co/JKfzjFZ/image.png",
+    "img3": "https://i.ibb.co/cDSS64p/image.png",
+    "img4": "https://i.ibb.co/cDWPb4W/image.png",
+    "img5": "https://i.ibb.co/9tSm6mm/image.png"
+  },
+  {
+    "id": 2,
+    "name": "Travel King",
+    "subtitle": "Travel Planner Website",
+    "features": {
+      "one": "● Single Page Application (SPA)",
+      "two": "● Users can choose tourist places.",
+      "three": "● Authenticated users can book tourist places for travel.",
+      "four": "● User can see the progress status of his order.",
+      "five": "● Admin can change the order’s status to notify the clients about progress."
+    },
+    "technology": {
+      "front": "React JS, React Router, React Hook Form",
+      "back": "Node JS, Express JS",
+      "database": "MongoDB",
+      "authentication": "Firebase",
+      "framework": "BootStrap",
+      "tools": "VS Code, Github, Heroku, REST api"
+    },
+    "live": "https://travel-king-dd8f2.web.app/",
+    "server": "https://github.com/prantokhaan/travel-king-server",
+    "client": "https://github.com/prantokhaan/travel-king-client",
+    "img1": "https://i.ibb.co/frQcXzd/image.png",
+    "img2": "https://i.ibb.co/m9kNqkM/image.png",
+    "img3": "https://i.ibb.co/HGkF2Jq/image.png",
+    "img4": "https://i.ibb.co/GCkX87D/image.png",
+    "img5": "https://i.ibb.co/KNnsdMk/image.png"
+  },
+  {
+    "id": 3,
+    "name": "Minute Clinic",
+    "subtitle": "Doctor Consultancy Website",
+    "features": {
+      "one": "● Single Page Application (SPA)",
+      "two": "● Users can see the doctors and information.",
+      "three": "● Users can choose a doctor.",
+      "four": "● Authenticated users can appoint doctors for his problem."
+    },
+    "technology": {
+      "front": "React JS, React Router, Private Route",
+      "authentication": "Firebase",
+      "framework": "BootStrap",
+      "tools": "VS Code, Github, Firebase, REST api"
+    },
+    "live": "https://minute-clinic-web-app.web.app/",
+    "client": "https://github.com/prantokhaan/minute-clinic",
+    "img1": "https://i.ibb.co/VvPSZmY/image.png",
+    "img2": "https://i.ibb.co/SNL0Pv3/image.png",
+    "img3": "https://i.ibb.co/nPqsGvH/image.png",
+    "img4": "https://i.ibb.co/SKwsvHq/image.png",
+    "img5": "https://i.ibb.co/KKS6Xwp/image.png"
+  },
+  {
+    "id": 4,
+    "name": "Aimers",
+    "subtitle": "Education Website",
+    "features": {
+      "one": "● Single Page Application (SPA)",
+      "two": "● Users can see the plans of subjects classed.",
+      "three": "● Users can purchase a plan."
+    },
+    "technology": {
+      "front": "React JS, React Router",
+      "framework": "BootStrap",
+      "tools": "VS Code, Github, Netlify, REST api"
+    },
+    "live": "https://aimers-prantokhaan.netlify.app/",
+    "client": "https://github.com/prantokhaan/aimers-web",
+    "img1": "https://i.ibb.co/t3vJq6m/image.png",
+    "img2": "https://i.ibb.co/thqkNPt/image.png",
+    "img3": "https://i.ibb.co/0X2gJxS/image.png",
+    "img4": "https://i.ibb.co/cvsWxLk/image.png",
+    "img5": "https://i.ibb.co/8BQDvgf/image.png"
+  },
+  {
+    "id": 5,
+    "name": "Music Fest",
+    "subtitle": "Festival Arranging Website",
+    "features": {
+      "one": "● Single Page Application (SPA)",
+      "two": "● Users can see the singers of Bangladesh.",
+      "three": "● Users can vote for the singers."
+    },
+    "technology": {
+      "front": "React JS, React Router",
+      "framework": "BootStrap",
+      "tools": "VS Code, Github, Netlify, REST api"
+    },
+    "live": "https://music-fest-prantokhaan.netlify.app/",
+    "client": "https://github.com/prantokhaan/music-fest",
+    "img1": "https://i.ibb.co/hy8X9pc/image.png",
+    "img2": "https://i.ibb.co/5kWwJcd/image.png",
+    "img3": "https://i.ibb.co/xGSqbZY/image.png",
+    "img4": "https://i.ibb.co/hf9Nk2b/image.png",
+    "img5": "https://i.ibb.co/dcQXr5M/image.png"
+  }
+]
