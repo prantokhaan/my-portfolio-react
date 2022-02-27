@@ -60,10 +60,13 @@ const About = () => {
             <a href="https://drive.google.com/uc?id=1gn2grcG3NsgiS3NTYfEAvhJHXwCquQAy&export=download" target="_blank" rel="noreferrer" className="text-decoration-none">
               <StyledButton>Download Resume</StyledButton>
             </a>
-
-            <Link className="ms-5 text-decoration-none media-button" to="/contact">
+            <a href="https://www.fiverr.com/prantokhaan" target="_blank" rel="noreferrer" className="text-decoration-none ms-5">
               <StyledButton>Hire Me</StyledButton>
-            </Link>
+            </a>
+
+            {/* <Link className="ms-5 text-decoration-none media-button" to="/contact">
+              <StyledButton>Hire Me</StyledButton>
+            </Link> */}
           </div>
         </Grid>
         <Grid container spacing={2} sx={{mt: 5}}>

@@ -68,7 +68,7 @@ const Contact = () => {
                 My Address
               </h4>
               <h6 style={{ color: "#504e70", fontSize: "14px" }}>
-                Kolabagan, Jamalpur, Bangladesh
+                Kanchan, Rupganj, Narayanganj, Bangladesh
               </h6>
             </div>
           </Grid>

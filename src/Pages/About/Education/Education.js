@@ -22,6 +22,27 @@ const Education = () => {
           <div className="mb-5">
             <p className="ps-4 ms-3 my-3">
               <i className="circle-dot"></i>
+              <i className="fa fa-calendar"></i> 2022 - Present
+            </p>
+            <h5 className="ps-4 ms-3">Bachelor of Science</h5>
+            <h6 className="ps-4 ms-3" style={{ fontSize: "15px" }}>
+              Green University of Bangladesh
+            </h6>
+            <p className="ps-4 ms-3" style={{ fontWeight: 600 }}>
+              Background:{" "}
+              <span style={{ color: "#504e70", fontWeight: 400 }}>Computer Science & Engineering</span>
+            </p>
+            <p
+              className="ps-4 ms-3"
+              style={{ fontWeight: 600, marginTop: "-7px" }}
+            >
+              GPA:{" "}
+              <span style={{ color: "#504e70", fontWeight: 400 }}>N/A</span>
+            </p>
+          </div>
+          <div className="mb-5">
+            <p className="ps-4 ms-3 my-3">
+              <i className="circle-dot"></i>
               <i className="fa fa-calendar"></i> 2018 - 2020
             </p>
             <h5 className="ps-4 ms-3">Higher Secondary Certificate</h5>
